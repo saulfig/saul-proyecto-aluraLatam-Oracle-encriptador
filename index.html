@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Outline&display=swap" rel="stylesheet">
+    <title>Encriptador de texto </title>
+</head>
+<body></body>
+  <div class="container">
+    <div class="logo">
+      <img class="logoImg" src="logo.png">
+        <h1 class="tittle">Text encryptor</h1>
+    </div>
+    <div class="left">
+        <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Enter the text here">
+    </div>
+    <div class="right">
+      <img src="Muñeco.png" id="imgDer">
+      <h1 id="texto">no message was found</h1>
+      <textarea id="texto2"></textarea>
+      <button type="button" id="copiar" onclick="copia()">copy!</button>
+    </div>
+    <div class="left-button">
+      <p>    <i class="fa-solid fa-circle-info"></i> Only lowercase letters and no accent: <a href="https://www.linkedin.com/in/saul-figuereo-675960259/">More info </a>  </p>
+    </br>
+      <button type="button" id="btn-encriptar" onclick="encriptar()"><i class="fa-solid fa-lock"></i> Encrypt</button>
+      <button type="button" id="btn-desencriptar" onclick="desencriptar()"><i class="fa-solid fa-lock-open"></i> Decrypt</button>
+    </div>
+  </div>
+  <footer>
+   
+  </footer>
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/562477e374.js" crossorigin="anonymous"></script>
+</body>
+</html>
